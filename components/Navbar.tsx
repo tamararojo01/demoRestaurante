@@ -2,6 +2,7 @@
 
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import Image from 'next/image';
 import { restaurantConfig } from '@/config/restaurant.config';
 
 export default function Navbar() {
@@ -23,7 +24,7 @@ export default function Navbar() {
           <a href="#hero" className="text-2xl font-serif font-bold text-neutral-900 hover:text-primary-500 transition-colors">
             {restaurantConfig.branding.logo.type === 'text' 
               ? restaurantConfig.branding.logo.text 
-              : <img src={restaurantConfig.branding.logo.imageUrl} alt={restaurantConfig.name} className="h-10" />}
+              : <Image src={restaurantConfig.branding.logo.imageUrl} alt={restaurantConfig.name} width={120} height={40} className="h-10 w-auto" />}
           </a>
 
           {/* Desktop Navigation */}

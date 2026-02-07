@@ -62,7 +62,7 @@ export default function Reviews() {
 
               {/* Comment */}
               <p className="text-neutral-700 mb-6 leading-relaxed">
-                "{review.comment}"
+                &ldquo;{review.comment}&rdquo;
               </p>
 
               {/* Author */}
