@@ -1,4 +1,4 @@
-import { ChefHat, Heart, MapPin } from 'lucide-react';
+import { ChefHat, Heart, MapPin, MessageCircle } from 'lucide-react';
 import { restaurantConfig } from '@/config/restaurant.config';
 
 export default function About() {
@@ -49,9 +49,15 @@ export default function About() {
             ))}
 
             {/* Values */}
-            <div className="grid sm:grid-cols-3 gap-6 pt-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-6">
               {about.values.map((value, idx) => {
-                const Icon = value.icon === 'ChefHat' ? ChefHat : value.icon === 'Heart' ? Heart : MapPin;
+                const iconMap: Record<string, any> = {
+                  'ChefHat': ChefHat,
+                  'Heart': Heart,
+                  'MapPin': MapPin,
+                  'MessageCircle': MessageCircle,
+                };
+                const Icon = iconMap[value.icon] || ChefHat;
                 return (
                   <div key={idx} className="text-center sm:text-left">
                     <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-100 text-primary-600 rounded-xl mb-3">

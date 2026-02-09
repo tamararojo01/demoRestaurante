@@ -78,9 +78,9 @@ export const restaurantConfig = {
   // ========================================
   hero: {
     backgroundImage: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070",
-    title: "Bienvenido a",
-    titleHighlight: "La Mesa Urbana",
-    subtitle: "Una experiencia gastronómica única en el corazón de la ciudad. Ingredientes frescos, sabores auténticos y un ambiente inolvidable.",
+    title: "Restaurante La Mesa Urbana",
+    titleHighlight: "Cocina moderna en el corazón de Madrid",
+    subtitle: "Reserva mesa en segundos por WhatsApp o descúbrenos online",
     stats: [
       { value: "12+", label: "Años de Experiencia" },
       { value: "4.9", label: "Rating Google" },
@@ -101,9 +101,10 @@ export const restaurantConfig = {
     ],
     yearsInBusiness: 12,
     values: [
-      { icon: "ChefHat", title: "Calidad Premium", description: "Ingredientes seleccionados" },
-      { icon: "Heart", title: "Con Amor", description: "Cada plato es especial" },
-      { icon: "MapPin", title: "Local", description: "Productos de cercanía" },
+      { icon: "ChefHat", title: "Producto fresco diario", description: "Selección de ingredientes cada mañana" },
+      { icon: "Heart", title: "Cocina casera moderna", description: "Recetas tradicionales con toque actual" },
+      { icon: "MapPin", title: "Ambiente acogedor", description: "Perfecto para cualquier ocasión" },
+      { icon: "MessageCircle", title: "Reservas rápidas por WhatsApp", description: "Mesa confirmada en segundos" },
     ],
   },
 
@@ -126,7 +127,7 @@ export const restaurantConfig = {
           },
           {
             name: "Croquetas Caseras",
-            description: "Jamón ibérico, trufa negra y aioli de pimentón",
+            description: "Jamón ibérico de bellota, trufa negra recién rallada y aioli de pimentón ahumado",
             price: "14€",
           },
           {
@@ -136,7 +137,7 @@ export const restaurantConfig = {
           },
           {
             name: "Ensalada Burrata",
-            description: "Tomate heritage, albahaca fresca y reducción balsámica",
+            description: "Burrata cremosa, tomates cherry Heritage, albahaca fresca del huerto y reducción balsámica artesanal",
             price: "16€",
           },
         ],
@@ -147,7 +148,7 @@ export const restaurantConfig = {
         items: [
           {
             name: "Solomillo de Ternera",
-            description: "Salsa de vino tinto, puré de patata trufado y espárragos",
+            description: "Ternera madurada 30 días, salsa de vino tinto crianza, puré de patata trufado y espárragos trigueros",
             price: "32€",
           },
           {
@@ -173,12 +174,12 @@ export const restaurantConfig = {
         items: [
           {
             name: "Tarta de Queso",
-            description: "Coulis de frutos rojos y crumble de pistacho",
+            description: "Nuestra receta secreta de queso cremoso, coulis de frutos rojos del bosque y crumble crujiente de pistacho",
             price: "9€",
           },
           {
             name: "Coulant de Chocolate",
-            description: "Helado de vainilla bourbon y crujiente de avellana",
+            description: "Chocolate belga 70% cacao con corazón fundido, helado de vainilla bourbon y crujiente de avellana tostada",
             price: "10€",
           },
           {

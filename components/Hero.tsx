@@ -55,7 +55,7 @@ export default function Hero() {
               href="#menu"
               className="btn-secondary bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20"
             >
-              Ver Nuestra Carta
+              Ver carta
             </a>
           </div>
 
